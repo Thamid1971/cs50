@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: I first tried every algorithm and noticed that Sort 2 was the fastest. Then I compared Sort 1 and Sort 3, and both were close in speed. I then tried sorting the already-sorted files, where Sort 1 was the fastest. This suggests that Sort 1 uses Bubble Sort because its best-case time complexity is O(n) when the data is already sorted.
+
+sort2 uses: Merge Sort
+
+How do you know?: I first tried every algorithm and noticed that Sort 2 was the fastest. I then compared Sort 1 and Sort 3 with Sort 2. Sort 2 remained fast, even when sorting the reverse-sorted file. This suggests that Sort 2 uses Merge Sort because its best-case and worst-case time complexity are both O(n log n).
+
+sort3 uses: Selection Sort
+
+How do you know?: I first tried every algorithm and noticed that Sort 3 was the slowest. I then compared it with Sort 1 and Sort 2, which were both faster. I tried sorting the already-sorted files, and Sort 3 was still the slowest. I also tried the reverse-sorted file, where Sort 3 remained the slowest. This suggests that Sort 3 uses Selection Sort because its best-case and worst-case time complexity are both O(n²).
